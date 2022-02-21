@@ -1,0 +1,13 @@
+.itemContainer {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid lightgrey;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemDetail {
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+}

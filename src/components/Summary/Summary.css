@@ -1,0 +1,47 @@
+.summaryContainer {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transactionContainer {
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    min-height: 500px; 
+}
+
+.priceSection {
+    width: 100%;
+    text-align: start;
+}
+
+.summaryButtons {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.voidButton {
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.saveButton {
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.voidButton:hover {
+    background-color: red;
+    color: white;
+}
+
+.saveButton:hover {
+    background-color: blue;
+    color: white;
+}
